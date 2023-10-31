@@ -24,13 +24,12 @@ public class Crazy_3 {
 
     static void display(String phrase) {
 
-        //Start for loop at -1 (Because we techinically start at 0 because of the i++. I could've moved the counter somewhere else,
-        //but this works too)
-         for (int i = -1; i < 6; i++) {
+        //Fixed the loop. i++ increments AFTER checking the i varaible. I was just being dumb :)
+
+         for (int i = 0; i < 6; i++) {
             if (i == 0) {
                 phrase = "Crazy?";
                 JOptionPane.showMessageDialog(null, phrase);
-                
             } else if (i == 1) {
                 phrase = "I was crazy once";
                 JOptionPane.showMessageDialog(null, phrase); 
@@ -46,7 +45,7 @@ public class Crazy_3 {
             }else if (i == 5) {
                 phrase = "And rats make me crazy...";
                 JOptionPane.showMessageDialog(null, phrase); 
-                i = -1;
+                i = 0;
             }
         } 
     }
