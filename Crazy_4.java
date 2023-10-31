@@ -6,7 +6,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.util.Random;
 
-public class MovingAndRepeatingOptionPane_1 {
+public class Crazy_4 {
 
     public static void main(String[] args) {
         
