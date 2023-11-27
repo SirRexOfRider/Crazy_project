@@ -32,7 +32,7 @@ public class Crazy_5 {
             @Override
             public void windowOpened(WindowEvent e) {
                 // Play airhorn sound when the dialog is opened
-                playAirhornSound();
+                crazy();
             }
 
             @Override
@@ -54,8 +54,8 @@ public class Crazy_5 {
         dialog.add(closeButton);
     }
 
-    // Method to play the airhorn sound
-    public static void playAirhornSound() {
+    // Method to play the audio file
+    public static void crazy() {
         try {
             File soundFile = new File("crazy.wav");
             AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(soundFile);
