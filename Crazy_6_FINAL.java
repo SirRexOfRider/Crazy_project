@@ -23,7 +23,8 @@ public class Crazy_6_FINAL {
         dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE); // Set close operation
         dialog.setSize(530, 400); // Set dialog size
         dialog.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-        // Generate random colors for the dialog background and button
+
+        // Generate random colors for the button
         Random random = new Random();
         Color buttonColor = new Color(random.nextInt(256), random.nextInt(256), random.nextInt(256));
 
